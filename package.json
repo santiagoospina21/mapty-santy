@@ -1,0 +1,20 @@
+{
+  "name": "mapty",
+  "version": "1.0.0",
+  "description": "workouts mapty",
+  "default": "script.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-div./dist"
+  },
+  "author": "Santiago Ospina",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "core-js": "^3.28.0",
+    "regenerator-runtime": "^0.13.11"
+  }
+}
